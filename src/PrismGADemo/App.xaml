@@ -1,0 +1,14 @@
+﻿<storeApps:MvvmAppBase
+    x:Class="PrismGADemo.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:metro="using:DT.GoogleAnalytics.Metro"
+    xmlns:storeApps="using:Microsoft.Practices.Prism.StoreApps">
+    
+    <Application.Resources>
+        <ResourceDictionary>
+            <metro:GoogleAnalyticsSettings x:Key="GoogleAnalytics" WebPropertyId="UA-38182139-1" />
+        </ResourceDictionary>
+    </Application.Resources>
+
+</storeApps:MvvmAppBase>

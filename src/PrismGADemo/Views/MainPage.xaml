@@ -1,0 +1,15 @@
+﻿<storeApps:VisualStateAwarePage 
+    x:Class="PrismGADemo.Views.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:storeApps="using:Microsoft.Practices.Prism.StoreApps"
+    storeApps:ViewModelLocator.AutoWireViewModel="true"
+    mc:Ignorable="d">
+
+    <Grid Background="Black">
+        <Button Width="250" Height="200" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Fire Event" Command="{Binding FireEventCommand}"/>
+    </Grid>
+    
+</storeApps:VisualStateAwarePage>
